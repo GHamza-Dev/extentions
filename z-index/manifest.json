@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "z-index",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["z-index.js"],
+            "css": [ "nice.css" ]
+        }
+    ]
+}

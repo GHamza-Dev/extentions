@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "nice",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["nice1.js"],
+            "css": [ "nice.css" ]
+        }
+    ]
+}

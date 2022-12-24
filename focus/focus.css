@@ -1,0 +1,5 @@
+.focus_erased_ext,
+.focus_erased_ext > *{
+    color: #E9F2FF !important;
+    background-color: #E9F2FF !important;
+}
